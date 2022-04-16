@@ -18,14 +18,13 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println("preparing to send message...");
-        System.out.println( "Hello World!" );
+       
         String message="Hello, people";
         String subject="RecruitmentTracker: Confirmation";
-        String to="tridishag479@gmail.com";
-        String to1="sd7201@srmist.edu.in";
-        String to2="tg8316@srmist.edu.in";
-        String from="recruitmenttrack2022@gmail.com";
+        String to="emailid1";
+        String to1="emailid2";
+        String to2="emailid3";
+        String from="senderemail";
         
        // sendEmail(message,subject,to,from);
         sendAttach(message,subject,to,to1,to2,from);   //to candidate and panelist
@@ -54,7 +53,7 @@ public class App
         @Override
         protected PasswordAuthentication getPasswordAuthentication() {
           
-          return new PasswordAuthentication("recruitmenttrack2022@gmail.com", "Recruitment@2022");
+          return new PasswordAuthentication("senderemail", "******");
         }
         
       });
@@ -148,7 +147,7 @@ public class App
         @Override
         protected PasswordAuthentication getPasswordAuthentication() {
           
-          return new PasswordAuthentication("recruitmenttrack2022@gmail.com", "Recruitment@2022");
+          return new PasswordAuthentication("senderemail", "******");
         }
         
       });
