@@ -1,1 +1,1 @@
-# Sending Email content with attachment
+# Sending Email content with attachment using Java
